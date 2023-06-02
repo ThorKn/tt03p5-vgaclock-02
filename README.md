@@ -1,5 +1,18 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg)
 
+# VGA Clock for TinyTapeOut 3.5
+
+A mikrochip that shows a clock on a VGA display. 
+
+### VGA clock screen photo
+
+![VGA clock screen photo](vga_clock_screen_photo.jpg)
+
+### VGA clock drawing
+
+![VGA clock drawing](vga_clock_drawing.jpg)
+
+
 > Note: this is an experimental template for Tiny Tapeout 03p5 (3.5). Please talk to us before using it!
 
 # What is Tiny Tapeout?

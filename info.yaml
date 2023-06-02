@@ -33,6 +33,8 @@ documentation:
       On a connected VGA display a clock of three bars is shown.
       The heights of the bars represent the counters for hours, minutes and seconds.
 
+      The Verilog is generated from a SpinalHDL project and manual adapted to the tt03p5 requirements.
+
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
       The clock was tested on an FPGA. The circuit should work with a single 25MHz input clock 
