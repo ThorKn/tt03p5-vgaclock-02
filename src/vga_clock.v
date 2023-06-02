@@ -19,7 +19,7 @@ module tt_um_thorkn_vgaclock (
   wire                vga_content_io_r;
   wire                vga_content_io_g;
   wire                vga_content_io_b;
-  wire 				  reset
+  wire 				        reset;
   
   assign reset = !rst_n;
 
