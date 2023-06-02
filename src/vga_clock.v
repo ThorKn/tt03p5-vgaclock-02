@@ -42,11 +42,11 @@ module tt_um_thorkn_vgaclock (
     .clk            (clk                        ), //i
     .reset          (reset                      )  //i
   );
-  assign ui_out[0] = vga_sync_gen_io_h_sync; // @[VgaClock.scala 20:15]
-  assign ui_out[1] = vga_sync_gen_io_v_sync; // @[VgaClock.scala 21:15]
-  assign ui_out[2] = vga_content_io_r; // @[VgaClock.scala 27:10]
-  assign ui_out[3] = vga_content_io_g; // @[VgaClock.scala 28:10]
-  assign ui_out[4] = vga_content_io_b; // @[VgaClock.scala 29:10]
+  assign uo_out[0] = vga_sync_gen_io_h_sync; // @[VgaClock.scala 20:15]
+  assign uo_out[1] = vga_sync_gen_io_v_sync; // @[VgaClock.scala 21:15]
+  assign uo_out[2] = vga_content_io_r; // @[VgaClock.scala 27:10]
+  assign uo_out[3] = vga_content_io_g; // @[VgaClock.scala 28:10]
+  assign uo_out[4] = vga_content_io_b; // @[VgaClock.scala 29:10]
 
 endmodule
 
