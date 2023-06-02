@@ -4,6 +4,10 @@
 
 A mikrochip that shows a clock on a VGA display. 
 
+### spinalHDL project for generating the Verilog
+
+https://github.com/ThorKn/vga_clock_1
+
 ### VGA clock screen photo
 
 ![VGA clock screen photo](vga_clock_screen_photo.jpg)
